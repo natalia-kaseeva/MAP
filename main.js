@@ -106,6 +106,8 @@ function drawLine(e) {
         // console.log(x);
         // console.log(y);
 
+        //let distance = new Array();
+
         lineDistance = Math.hypot(lastClick[0]-x, lastClick[1]-y);
         console.log(lineDistance);
 
@@ -113,6 +115,7 @@ function drawLine(e) {
     }
     
     lastClick = [x, y];
+
 
 };
 
